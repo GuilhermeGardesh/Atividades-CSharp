@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/Calculadora.csproj",
+                "${workspaceFolder}/Calculadora/Calculadora.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/Calculadora.csproj",
+                "${workspaceFolder}/Calculadora/Calculadora.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/Calculadora.csproj"
+                "${workspaceFolder}/Calculadora/Calculadora.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
