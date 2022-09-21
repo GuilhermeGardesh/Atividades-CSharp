@@ -49,7 +49,7 @@
         Console.Clear();
 
         System.Console.WriteLine("Digite seu texto (Esc para sair)");
-        System.Console.WriteLine("----------------------------------------------------------------");
+        System.Console.WriteLine("---------------------------------");
         string textoUsuario = "";
 
         do
